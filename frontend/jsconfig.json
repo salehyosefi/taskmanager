@@ -1,0 +1,8 @@
+{
+  "complierOptions": {
+    "baseUrl": "./"
+  },
+  "include": [
+    "src"
+  ]
+}

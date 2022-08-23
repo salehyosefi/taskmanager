@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Box } from "@mui/material";
 
 import Categories from "./pages/Categories";
+import CategoryDetails from "./pages/Categories/CategoryDetails";
 
 export default function App(){
   return <div>
@@ -15,8 +16,8 @@ export default function App(){
       minHeight: "100vh"
       }}>
         <Routes>
-          <Route path="/categories"
-          element={<Categories />} />
+          <Route path="/categories" element={<Categories />} />
+          <Route path="/categories/create" element={<CategoryDetails />} />
         </Routes>
       </Box>
     </Router>
